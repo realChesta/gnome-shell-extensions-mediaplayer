@@ -1,6 +1,6 @@
 # gnome-shell-extensions-mediaplayer
 
-This fork removes the primary indicator (extension icon) from the widget.
+**This fork removes the primary indicator (extension icon) from the widget.**
 
 gnome-shell-extensions-mediaplayer is a gnome-shell extension for controlling
 any MPRIS v2.1 capable media player.
