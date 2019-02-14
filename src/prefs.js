@@ -589,7 +589,7 @@ const AboutPage = new Lang.Class({
 
     _init: function(settings) {
         this.parent(_('About'));
-        let releaseVersion = Me.metadata['version'] ? _('Version ') + Me.metadata['version'] : 'git-master';
+        let releaseVersion = Me.metadata['version'] ? _('Version ') + Me.metadata['version'] : 'no-primary-indicator';
         let projectName = Me.metadata['name'];
         let projectDescription = Me.metadata['description'];
         let projectUrl = Me.metadata['url'];
