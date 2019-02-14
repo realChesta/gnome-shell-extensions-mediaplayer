@@ -209,7 +209,7 @@ var PanelIndicator = new Lang.Class({
     this._thirdIndicatorBin = new St.Bin({child: this._thirdIndicator});
     this._thirdIndicator.hide();
 
-    this.indicators.add(this._primaryIndicator);
+    //this.indicators.add(this._primaryIndicator);
     this.indicators.add(this._secondaryIndicator);
     this.indicators.add(this._thirdIndicatorBin);
 
